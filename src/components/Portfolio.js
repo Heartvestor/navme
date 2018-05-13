@@ -19,6 +19,16 @@ const Portfolio = () => (
 
         <Carousel options={{ fullWidth: true, indicators: true }}>
             <div className='amber white-text center'>
+                <h2>PalsBook</h2>
+                <p className="black-text">About Pals (https://palsbook-7aff7.firebaseapp.com/)</p>
+                <p><img className="responsive-img" src="assets/images/mitziks.png" alt="miziks" /></p>
+            </div>
+            <div className='amber white-text center'>
+                <h2>WalterWilson.Space</h2>
+                <p className="black-text">Of course, this too! ;-)</p>
+                <p><img className="responsive-img" src="assets/images/navme.png" alt="navme" /></p>
+            </div>
+            <div className='amber white-text center'>
                 <h2>MitZiks.Com</h2>
                 <p className="black-text">A music website for a music production hothouse</p>
                 <p><img className="responsive-img" src="assets/images/mitziks.png" alt="miziks" /></p>
@@ -32,11 +42,6 @@ const Portfolio = () => (
                 <h2>Gakamidsa.net</h2>
                 <p className="black-text">A Professional Corporate Website<br />(offline now)</p>
                 <p><img className="responsive-img" src="assets/images/gakamid1.png" alt="gakamidsa" /></p>
-            </div>
-            <div className='amber white-text center'>
-                <h2>My Personal Site</h2>
-                <p className="black-text">Of course, this too! ;-)</p>
-                <p><img className="responsive-img" src="assets/images/navme.png" alt="navme" /></p>
             </div>
         </Carousel>
     </div>
